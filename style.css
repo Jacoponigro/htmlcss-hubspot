@@ -1,0 +1,109 @@
+/* impostazioni base */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* fine impostazioni base */
+header{
+  height: 1000px;
+}
+.container{
+  margin-top: 20px;
+  background-color: green;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.header-top{
+  height: 50px;
+  width: 80%;
+  margin: auto;
+}
+.header-div{
+  width: 50%;
+  float: left;
+  height:50px;
+}
+.menu-left li{
+  display: inline-block;
+  list-style: none;
+  float:left;
+  padding: 15px 15px 0 0;
+  color: blue;
+}
+.menu-right li{
+  display: inline-block;
+  list-style: none;
+  float: right;
+  margin: 11px 15px 0 0;
+}
+.menu-right li:last-child{
+  border: 1px solid red;
+  border-radius: 2px;
+  background-color: white;
+  padding: 4px;
+}
+a{
+  text-decoration: none;
+}
+.menu-right a:first-child{
+  color:red;
+}
+.menu-left a:last-child{
+
+}
+.menu-right li:first-child{
+  border: 1px solid red;
+  border-radius: 2px;
+  background-color: red;
+  padding: 4px;
+}
+.second-container{
+ background-color: #fff;
+}
+.header-middle{
+  height: 50px;
+  width: 80%;
+  margin: auto;
+}
+.second-menu-left li{
+  list-style: none;
+  float: left;
+}
+.second-menu-right li{
+  list-style: none;
+  display: inline-block;
+  line-height: 50px;
+  padding:10px;
+  float: right;
+}
+img{
+  padding:12px 0 12px 0;
+}
+.header-bottom{
+  height: 600px;
+  margin:auto;
+  background-image: url(img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 2px solid blue;
+  position: relative;
+}
+.meta{
+  position: absolute;
+  position: absolute;
+  top:20%;
+  left:36%;
+  transform: translate(-50%, -50%);
+}
+.meta{
+  width:50%;
+}
+.meta h1{
+  font-size: 50px;
+}
