@@ -42,19 +42,21 @@ header{
   float: right;
   margin: 11px 15px 0 0;
 }
-.menu-right li:last-child{
+#bianco{
   border: 1px solid red;
   border-radius: 5px;
   background-color: white;
   padding: 4px;
   color:red;
 }
-.menu-right li:first-child{
-  border: 0px solid red;
-  border-radius: 5px;
+.menu-right button{
   background-color: #FE775A;
-  padding:4px;
-  color: white;
+  border-radius: 5px;
+  padding:10px;
+  border-color: red;
+  color: #fff;
+  border:0px;
+  ù
 }
 a{
   text-decoration: none;
@@ -115,7 +117,7 @@ a{
   margin-bottom: 30px;
   background-color: #FE775A;
   border-radius: 5px;
-  padding:5px;
+  padding:20px;
   border-color: red;
   color: #fff;
   border:0px;
@@ -126,7 +128,7 @@ a{
 }
 .blueline{
   height: 100px;
-  background-color: #00A4BD ;
+  background-color: #AFEBE4 ;
   border-top: 2px solid blue;
   border-bottom: 2px solid blue
 }
