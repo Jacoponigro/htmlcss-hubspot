@@ -86,12 +86,11 @@ img{
   padding:12px 0 12px 0;
 }
 .header-bottom{
-  height: 600px;
+  height: 650px;
   margin:auto;
   background-image: url(img/jumbotron.png);
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom: 2px solid blue;
   position: relative;
 }
 .meta{
@@ -106,4 +105,11 @@ img{
 }
 .meta h1{
   font-size: 50px;
+}
+.blueline{
+  height: 100px;
+  background-color: lightblue;
+  border-top: 2px solid blue;
+  border-bottom: 2px solid blue
+
 }
