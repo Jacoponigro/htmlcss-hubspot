@@ -11,11 +11,11 @@
 }
 /* fine impostazioni base */
 header{
-  height: 1000px;
+  height: 852px;
 }
 .container{
   margin-top: 20px;
-  background-color: green;
+  background-color: #F4F9FD;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
@@ -44,24 +44,28 @@ header{
 }
 .menu-right li:last-child{
   border: 1px solid red;
-  border-radius: 2px;
+  border-radius: 5px;
   background-color: white;
   padding: 4px;
+  color:red;
+}
+.menu-right li:first-child{
+  border: 0px solid red;
+  border-radius: 5px;
+  background-color: #FE775A;
+  padding:4px;
+  color: white;
 }
 a{
   text-decoration: none;
 }
 .menu-right a:first-child{
-  color:red;
+  color:white;
+  border-radius: 5px;
+
 }
 .menu-left a:last-child{
 
-}
-.menu-right li:first-child{
-  border: 1px solid red;
-  border-radius: 2px;
-  background-color: red;
-  padding: 4px;
 }
 .second-container{
  background-color: #fff;
@@ -82,7 +86,7 @@ a{
   padding:10px;
   float: right;
 }
-img{
+.second-menu-left img{
   padding:12px 0 12px 0;
 }
 .header-bottom{
@@ -95,21 +99,73 @@ img{
 }
 .meta{
   position: absolute;
-  position: absolute;
-  top:20%;
-  left:36%;
+  top:25%;
+  left:30%;
   transform: translate(-50%, -50%);
+  color: #33475B;
 }
 .meta{
-  width:50%;
+  width:40%;
+}
+.meta p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.meta button{
+  margin-bottom: 30px;
+  background-color: #FE775A;
+  border-radius: 5px;
+  padding:5px;
+  border-color: red;
+  color: #fff;
+  border:0px;
 }
 .meta h1{
   font-size: 50px;
+  line-height: 50px;
 }
 .blueline{
   height: 100px;
-  background-color: lightblue;
+  background-color: #00A4BD ;
   border-top: 2px solid blue;
   border-bottom: 2px solid blue
-
+}
+.main-top{
+  height: 1000px;
+  background-color:#F4F9FD ;
+  position: relative;
+}
+.img-container{
+  height: 450px;
+}
+.main-top img{
+  position: absolute;
+  top:25%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.description h2 {
+  text-align: center;
+}
+.description p{
+  text-align: center;
+}
+.main-center{
+  height: 300px;
+  width: 80%;
+  margin: auto;
+}
+.main-center-left{
+  float: left;
+  width: 20%;
+  display: inline-block;
+}
+.main-center-right{
+  float: left;
+  width:80%;
+  display: inline-block;
+}
+.main-center-left img.resize{
+ width: auto;
+ height: 300px;
 }
