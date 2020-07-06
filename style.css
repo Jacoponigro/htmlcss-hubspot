@@ -14,7 +14,6 @@ header{
   height: 852px;
 }
 .container{
-  margin-top: 20px;
   background-color: #F4F9FD;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -34,6 +33,9 @@ header{
   float:left;
   margin-left: 15px;
   color: blue;
+}
+.menu-left i{
+  color: #33475B;
 }
 .menu-right li{
   display: inline-block;
@@ -120,8 +122,15 @@ a{
   line-height: 50px;
 }
 .blueline{
-  height: 100px;
+  height: 10%;
   background-color: #AFEBE4 ;
   border-top: 2px solid blue;
   border-bottom: 2px solid blue
+}
+.general-container img{
+  height: 200px;
+}
+.general-container{
+  width: 80%;
+  margin: auto;
 }
