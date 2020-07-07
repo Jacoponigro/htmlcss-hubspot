@@ -10,9 +10,7 @@
   clear: both;
 }
 /* fine impostazioni base */
-header{
-  height: 852px;
-}
+/* inizio header */
 .container{
   background-color: #F4F9FD;
   border-top: 1px solid black;
@@ -122,11 +120,17 @@ a{
   line-height: 50px;
 }
 .blueline{
-  height: 10%;
+  height: 70px;;
   background-color: #AFEBE4 ;
   border-top: 2px solid blue;
   border-bottom: 2px solid blue
 }
+/* fine dell'header */
+/* inizio main */
+main{
+  background-color:  #F4F9FD;
+}
+
 .general-container img{
   height: 200px;
 }
@@ -134,3 +138,121 @@ a{
   width: 80%;
   margin: auto;
 }
+.first-main{
+  margin-bottom: 20px;
+}
+.intestazione-main{
+  text-align: center;
+}
+.img-learnmore{
+  float: left;
+}
+.img-learnmore ul{
+  list-style: none;
+}
+.img-learnmore button{
+  background-color: #FE775A;
+  border-radius: 5px;
+  padding:20px;
+  border-color: red;
+  color: #fff;
+  border:0px;
+
+}
+.hbspot-crm{
+  float: left;
+  line-height: 50px;
+}
+.color{
+  background-color: #fff;
+  padding:40px;
+  box-shadow:2px 2px 2px 2px;
+  height: 320px;;
+  border-radius: 5px;
+}
+.hbspot-crm li{
+list-style: none;
+display:inline-block;
+margin-right: 10px;
+}
+.fa-check-circle{
+  color:#FE775A;
+  margin-right: 10px;
+}
+.col-left{
+  float: left;
+  width: 26.6%;
+  height: 500px;
+}
+.col-centro{
+  float: left;
+  width: 26.6%;
+  height: 500px;
+}
+.col-right{
+  float: left;
+  width: 26.8%;
+  height: 500px;
+}
+.dimensioni{
+  margin:40px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  box-shadow:2px 2px 2px 2px;
+  border-radius: 5px;
+}
+.col-left li{
+  list-style: none;
+}
+.col-left a{
+  margin-left: 20px;
+  background-color: #FE775A;
+  border-radius: 5px;
+  padding:20px;
+  border-color: red;
+  color: #fff;
+  border:0px;
+}
+.col-centro li{
+  list-style: none;
+}
+.col-right li{
+  list-style: none;
+}
+.col-centro a{
+  padding: 20px;
+  background-color: #FE775A;
+  border-radius: 5px;
+  padding:20px;
+  border-color: red;
+  color: #fff;
+  border:0px;
+}
+  .col-right a {
+    padding: 20px;
+    background-color: #FE775A;
+    border-radius: 5px;
+    padding:20px;
+    border-color: red;
+    color: #fff;
+    border:0px;
+}
+.dimensioni img{
+  height: 90px;
+}
+.dimensioni ul{
+  text-align: left;
+  margin-bottom: 50px;
+}
+.dimensioni h3{
+  margin-bottom: 25px;
+}
+.dimensioni p{
+  margin-bottom: 25px;
+}
+.dimensioni h4{
+  margin-bottom: 25px;
+  margin-top: 25px
+}
+/* fine main */
