@@ -127,6 +127,7 @@ a{
 }
 /* fine dell'header */
 /* inizio main */
+/* prima parte */
 main{
   background-color:  #F4F9FD;
 }
@@ -150,14 +151,13 @@ main{
 .img-learnmore ul{
   list-style: none;
 }
-.img-learnmore button{
+.img-learnmore a{
   background-color: #FE775A;
   border-radius: 5px;
   padding:20px;
   border-color: red;
   color: #fff;
   border:0px;
-
 }
 .hbspot-crm{
   float: left;
@@ -179,6 +179,8 @@ margin-right: 10px;
   color:#FE775A;
   margin-right: 10px;
 }
+/* fine prima parte */
+/* inizio seconda parte */
 .col-left{
   float: left;
   width: 26.6%;
@@ -229,14 +231,14 @@ margin-right: 10px;
   color: #fff;
   border:0px;
 }
-  .col-right a {
-    padding: 20px;
-    background-color: #FE775A;
-    border-radius: 5px;
-    padding:20px;
-    border-color: red;
-    color: #fff;
-    border:0px;
+.col-right a {
+  padding: 20px;
+  background-color: #FE775A;
+  border-radius: 5px;
+  padding:20px;
+  border-color: red;
+  color: #fff;
+  border:0px;
 }
 .dimensioni img{
   height: 90px;
@@ -255,4 +257,55 @@ margin-right: 10px;
   margin-bottom: 25px;
   margin-top: 25px
 }
+/* fine seconda parte */
+/* inizio terza parte */
+.contenitore{
+  width: 80%;
+  margin: auto;
+  color: #fff;
+  padding: 40px 0 80px;
+  text-align: center;
+  background-color: blue;
+}
+.statistics{
+  padding: 30px 70px;
+  text-align: center;
+  background-color: blue;
+}
+.statistics h2{
+  text-transform: none;
+}
+.statistics p{
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+.statistics-table-item{
+  width: 25%;
+  float: left;
+  padding: 25px;
+}
+.statistics-table-item:not(:last-child){
+  border-right: 1px solid #fff;
+}
+.statistics-table-item img, .statistics-table-item .number{
+  margin-bottom: 10px;
+}
+.statistics-table-item img{
+  height: 35px;
+}
+.number{
+  font-size: 40px;
+  font-weight: 900;
+}
+.statistics-table-item .number span{
+  margin-left: 5px;
+  font-size: 25px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+.table-row:first-child{
+  border-bottom: 1px solid #fff;
+}
+
+
 /* fine main */
