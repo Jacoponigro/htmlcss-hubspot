@@ -23,7 +23,7 @@
 .header-div{
   width: 50%;
   float: left;
-  padding: 20px;
+  padding: 15px;
 }
 .menu-left li{
   display: inline-block;
@@ -139,9 +139,9 @@ main{
   width: 80%;
   margin: auto;
 }
-.first-main{
+.section-font{
   margin-bottom: 20px;
-  color: #33475B
+  color: #33475B;
 }
 .intestazione-main{
   text-align: center;
@@ -269,7 +269,6 @@ margin-right: 10px;
 
 }
 .statistics{
-  padding: 30px 70px;
   text-align: center;
   background: rgb(0,165,190);
   background: linear-gradient(80deg, rgba(0,160,180,1) 0%, rgba(0,190,160,1) 100%);
@@ -308,6 +307,39 @@ margin-right: 10px;
 .table-row:first-child{
   border-bottom: 1px solid #fff;
 }
+/* fine terza parte */
+/* inizio quarta parte */
+.contenitore2{
+  width: 80%;
+  margin: auto;
+  color: #33475B;
+  text-align: center;
+
+}
+.second-col-left{
+  float: left;
+  width: 30%;
+}
+.second-col-right{
+  float: left;
+  width: 70%;
+}
+.second-col-left h2{
+  font-size: 40px;
+  font-weight: 800;
+}
+.second-col-left li{
+  list-style: none;
+}
+.second-col-right li{
+  list-style: none;
+  display: inline-block;
+}
+.second-col-right img{
+  height:35px;
+  width: 25%;
+}
 
 
+/* fine quarta parte */
 /* fine main */
