@@ -334,12 +334,26 @@ margin-right: 10px;
 .second-col-right li{
   list-style: none;
   display: inline-block;
+  width: 200px;
 }
 .second-col-right img{
   height:35px;
   width: 25%;
+  width: 200px;
 }
-
+.contenitore3{
+  width: 80%;
+  margin: auto;
+  color: #33475B;
+}
+.third-col-left{
+  float: left;
+  width:30%;
+}
+.third-col-right{
+  float: left;
+  width:70%;
+}
 
 /* fine quarta parte */
 /* fine main */
