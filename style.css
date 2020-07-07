@@ -141,6 +141,7 @@ main{
 }
 .first-main{
   margin-bottom: 20px;
+  color: #33475B
 }
 .intestazione-main{
   text-align: center;
@@ -265,12 +266,13 @@ margin-right: 10px;
   color: #fff;
   padding: 40px 0 80px;
   text-align: center;
-  background-color: blue;
+
 }
 .statistics{
   padding: 30px 70px;
   text-align: center;
-  background-color: blue;
+  background: rgb(0,165,190);
+  background: linear-gradient(80deg, rgba(0,160,180,1) 0%, rgba(0,190,160,1) 100%);
 }
 .statistics h2{
   text-transform: none;
