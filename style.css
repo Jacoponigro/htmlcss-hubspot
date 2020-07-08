@@ -16,6 +16,12 @@
 h3 h4{
   font-weight: 900;
 }
+.menu-left{
+  padding: 20px;
+}
+.menu-right{
+  padding:9px;
+}
 .container{
   background-color: #F4F9FD;
   border-top: 1px solid black;
@@ -29,15 +35,21 @@ h3 h4{
   width: 50%;
   float: left;
   padding: 15px;
+  height: 95px;
 }
 .menu-left li{
   display: inline-block;
   list-style: none;
   float:left;
   margin-left: 15px;
-  color: blue;
 }
 .menu-left i{
+  color: #33475B;
+}
+.menu-left a{
+  color: #33475B;
+}
+.menu-right i{
   color: #33475B;
 }
 .menu-right li{
@@ -60,10 +72,6 @@ h3 h4{
   padding:5px;
   border-color: red;
   color: #fff;
-
-}
-.menu-right{
-  color: blue;
 }
 a{
   text-decoration: none;
@@ -85,6 +93,9 @@ a{
   line-height: 50px;
   padding:10px;
   float: right;
+}
+.second-menu-right a{
+  color: #33475B;
 }
 .second-menu-left img{
   padding:20px;
@@ -142,12 +153,15 @@ main{
 .general-container{
   width: 80%;
   margin: auto;
+  margin-bottom: 50px;
 }
 .section-font{
   color: #33475B;
 }
 .intestazione-main{
   text-align: center;
+  width: 50%;
+  margin: auto;
 }
 .intestazione-main img{
   padding:30px;
@@ -173,7 +187,7 @@ main{
   float: left;
   line-height: 50px;
 }
-.color{
+.settings{
   background-color: #fff;
   padding:40px;
   box-shadow:2px 2px 2px 2px;
@@ -218,13 +232,18 @@ padding-bottom: 20px;
   width: 26.8%;
   height: 500px;
 }
+.col-centro{
+  margin-left:5%;
+  margin-right: 5%;
+}
 .dimensioni{
-  margin:40px;
+  margin-top:40px;
   padding: 20px;
   text-align: center;
   background-color: white;
   box-shadow:2px 2px 2px 2px;
   border-radius: 5px;
+  width: 30%
 }
 .col-left li{
   list-style: none;
@@ -404,6 +423,9 @@ padding-bottom: 20px;
   max-height: 330px;
   float:right;
 }
+/* fine quarta parte */
+/* fine main */
+/* inizio footer */
 footer{
   background-color: #32495B;
   color:#fff;
@@ -484,6 +506,4 @@ footer{
   color: #D3F9FD;
   padding: 15px;
 }
-
-/* fine quarta parte */
-/* fine main */
+/* fine footer */
